@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Tune, getStrokes, Parsed } from "../lib";
 import { useInterval } from "../lib/useInterval";
