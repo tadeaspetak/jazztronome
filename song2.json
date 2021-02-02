@@ -1,0 +1,30 @@
+{
+  "measures": {
+    "three": "HLL",
+    "threeDouble": "HLLHLL",
+    "four": "HLLL",
+    "five": "HLLLL",
+    "eight": "HLLHLLLL"
+  },
+  "groups": {
+    "verse": [
+        [ "eight", 2 ],
+        [ "three", 1 ],
+        [ "four", 1 ],
+        [ "eight", 1 ]
+      ],
+    "chorus": [
+        [ "threeDouble", 1 ],
+        [ "five", 1 ],
+        [ "threeDouble", 2 ]
+      ]
+  },
+  "track": {
+    "name": "Breeze",
+    "groups": [
+      [ "verse", 2],
+      [ "chorus", 3]
+    ],
+    "tempo": 180
+  }
+}

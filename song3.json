@@ -1,0 +1,34 @@
+{
+  "measures": {
+    "two": "HL",
+    "three": "HLL",
+    "four": "HLLL",
+    "five": "HLLLL",
+    "six": "HLLHLL",
+    "seven": "HLLHLLL",
+    "eight": "HLLHLLHL"
+  },
+  "groups": {
+    "verse": [
+        ["eight", 2],
+        ["six", 1],
+        ["eight", 1]
+    ],
+    "chorus": [
+        ["six", 1],
+        ["four", 1],
+        ["six", 1],
+        ["two", 1],
+        ["six", 1],
+        ["seven", 1]
+    ]
+  },
+  "track": {
+    "name": "Cupcakes",
+    "groups": [
+      ["verse", 2],
+      ["chorus", 2]
+    ],
+    "tempo": 180
+  }
+}

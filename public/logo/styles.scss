@@ -1,0 +1,24 @@
+@font-face {
+    font-family: FranklinGothic-Heavy;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/Franklin_Gothic_Heavy_Regular.woff);
+  }
+  body { 
+    margin: 0;
+    background: #000;
+    text-align: center;
+  }
+  svg { width: 33%; }
+  rect { fill: #FE0304; }
+  text { 
+    font-size: 63px;
+      font-family: FranklinGothic-Heavy, Frankin Gothic, sans-serif;
+      font-weight: 900; 
+      text-transform: uppercase;
+      letter-spacing: 21px;
+      fill: white;
+  }
+  #arrow {
+    background-color: white;
+    stroke: white;
+    fill: white;
+  }

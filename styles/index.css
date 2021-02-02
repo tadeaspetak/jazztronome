@@ -1,0 +1,12 @@
+/* purgecss start ignore */
+
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+#__next {
+    min-height: 100vh;
+    min-width: 100vw;
+}
